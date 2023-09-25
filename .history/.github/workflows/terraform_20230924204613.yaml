@@ -19,7 +19,7 @@ jobs:
       - name: format
         run: terraform fmt -check
       - name: plan
-        run: terraform plan
+      run: terraform plan
 
        
 
