@@ -18,8 +18,8 @@ jobs:
         run: terraform validate
       - name: format
         run: terraform fmt -check
-      - name: plan
-        run: terraform plan
+    - name: plan
+      run: terraform plan
 
        
 
